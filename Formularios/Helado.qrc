@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Helado">
+    <file>helado_extravagante.jpg</file>
+  </qresource>
+</RCC>

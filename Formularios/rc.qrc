@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="prefijoNuevo">
+    <file>buscar.ico</file>
+  </qresource>
+</RCC>
