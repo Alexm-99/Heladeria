@@ -1,7 +1,7 @@
 import sys
 
 from PyQt5.QtWidgets import QApplication, QDialog, QMessageBox, QTableWidgetItem, QFileDialog, QMainWindow
-from Menu import *
+from views.Menu import *
 from FormulariosPy.Login_ui import Ui_Dialog
 from Data.db_favan_py import RegistroTablas, Bd_Personal, Consultas, bdLogin
 
@@ -68,9 +68,3 @@ class Plogin(QDialog):
         mensaje.exec_()
 
 login = bdLogin()
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    
-    ventana = Plogin()
-    ventana.show()
-    sys.exit(app.exec_())

@@ -3,13 +3,13 @@ import sys
 from PyQt5.QtWidgets import QApplication, QDialog, QMessageBox, QTableWidgetItem, QFileDialog,QMainWindow
 
 #from FormulariosPy.Clientes_ui import Ui_Form as clienteFc
-from Sucursal import *
-from Clientes import *
-from Consultas import *
-from Personal import *
-from Login import *
-from ElegirReporte import *
-from Fpedido import *
+from views.Sucursal import *
+from views.Clientes import *
+from views.Consultas import *
+from views.Personal import *
+from views.Login import *
+from views.ElegirReporte import *
+from views.Fpedido import *
 from FormulariosPy.MenuPrincipal_ui import Ui_Form
 from Data.db_favan_py import RegistroTablas, Clientes, Consultas
 

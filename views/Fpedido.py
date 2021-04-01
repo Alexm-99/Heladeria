@@ -2,8 +2,8 @@ import sys
 from datetime import date
 from PyQt5 import uic
 from PyQt5.QtWidgets import QMainWindow,QApplication, QDialog, QMessageBox,QTableWidgetItem
-from FFactura import *
-from FFactura import Factura
+from views.FFactura import *
+from views.FFactura import Factura
 from FormulariosPy.Formulario_Pedido_ui import Ui_Form
 from Data.db_favan_py import Consultas, Pedido
 

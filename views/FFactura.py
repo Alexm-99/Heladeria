@@ -2,7 +2,7 @@ import sys
 import sqlite3
 from PyQt5 import uic
 from PyQt5.QtWidgets import QMainWindow,QApplication, QDialog, QMessageBox,QTableWidgetItem
-from Clientes import *
+from views.Clientes import *
 from FormulariosPy.Formulario_Factura_ui import Ui_Form
 from Data.db_favan_py import Consultas, Facturas, Detalle_Factura,Pedido
 
